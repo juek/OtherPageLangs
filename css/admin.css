@@ -1,0 +1,138 @@
+/**
+ * Admin link
+ *
+ */
+
+#gp_admin_html .opl-admin-link .fa {
+  margin-right: 0;
+}
+
+#gp_admin_html .opl-admin-link-language-set {
+  background-color: rgb(43, 56, 33);
+  color: rgb(169, 192, 147);
+}
+
+#gp_admin_html .opl-admin-link-language-set:hover {
+  background-color: rgb(58, 77, 42);
+  color: rgb(209, 236, 184);
+}
+
+#gp_admin_html .opl-admin-link-badge {
+  position:absolute;
+  top: 0.25em;
+  right: 0.33em;
+  text-align: center;
+  width: 1.2em;
+  height: 1.2em;
+  overflow: hidden;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border-radius: 0.6em;
+  background-color: rgb(86, 153, 24);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#gp_admin_html .opl-admin-link-badge-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0.825em !important;
+  line-height: 1.3;
+  text-align: center;
+  color: #fff;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+#gp_admin_html .opl-badge-indicate-redir {
+  border-radius: 0.6em 0 0.6em 0.6em;
+}
+
+#gp_admin_html .opl-badge-indicate-preferred {
+  border-radius: 0.6em 0.6em 0 0.6em;
+}
+
+
+/**
+ * gpabox
+ *
+ */
+
+#gp_admin_html .opl-settings-heading {
+  margin:0 0 1em 0;
+}
+
+#gp_admin_html label.all_checkbox.opl-settings-autoredir-switch {
+  float: right;
+  margin-right: 0;
+  width: auto;
+}
+
+#gp_admin_html label.all_checkbox.opl-settings-autoredir-switch > span {
+  width: auto;
+}
+
+#gp_admin_html label.all_checkbox.opl-settings-autoredir-switch > span:before {
+  display: inline-block;
+  content: '\f096';
+  font-family: FontAwesome !important;
+  margin-right: 0.5em;
+  font-size: 14px !important;
+}
+
+#gp_admin_html label.all_checkbox.opl-settings-autoredir-switch > input:checked + span:before {
+  content: '\f14a';
+}
+
+
+#gp_admin_html #opl-settings-table label {
+  margin-bottom: 0;
+}
+
+#gp_admin_html #opl-settings-table td,
+#gp_admin_html #opl-settings-table th {
+  vertical-align: middle;
+}
+
+#gp_admin_html #opl-settings-table td:last-child,
+#gp_admin_html #opl-settings-table th:last-child {
+  text-align: right;
+}
+
+#gp_admin_html #opl-settings-table .invalid,
+#gp_admin_html #opl-settings-table select:invalid,
+#gp_admin_html #opl-settings-table input:invalid {
+  border-color: rgba(255, 55, 0, 0.5);
+  box-shadow: 0 0 0 3px rgba(255, 55, 0, 0.5);
+}
+
+#gp_admin_html #opl-settings-table input.gpinput[readonly] {
+  border: none;
+  padding: 0 14px 0 0;
+}
+
+#gp_admin_html #opl-settings-table .opl-settings-page-info a {
+  display: inline-block;
+  max-width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#gp_admin_html #opl-settings-table .opl-settings-pagelang-lock a { color:#333 !important; }
+#gp_admin_html #opl-settings-table .opl-settings-pagelang-lock a .fa { font-size: 14px !important; }
+#gp_admin_html #opl-settings-table .opl-settings-pagelang-lock a .fa-lock { display: none; }
+#gp_admin_html #opl-settings-table .opl-settings-pagelang-lock a .fa-unlock-alt { display: inline-block; }
+#gp_admin_html #opl-settings-table .opl-settings-pagelang-lock.opl-settings-pagelang-locked a { color: #aaa!important; }
+#gp_admin_html #opl-settings-table .opl-settings-pagelang-lock.opl-settings-pagelang-locked a .fa-lock { display: inline-block; }
+#gp_admin_html #opl-settings-table .opl-settings-pagelang-lock.opl-settings-pagelang-locked a .fa-unlock-alt { display: none; }
+#gp_admin_html #opl-settings-table .opl-settings-pagelang-lock.opl-settings-pagelang-locked .opl-settings-page-lang {
+  pointer-events: none;
+  color: #555!important;
+}

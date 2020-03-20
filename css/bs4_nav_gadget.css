@@ -1,0 +1,23 @@
+/**
+ * 'Other Page Languages' plugin for Typesetter CMS
+ * Author: Jürgen Krausz
+ * License: GPL version 2
+ *
+ */
+
+
+/* I sincerely apologize for this abominable mobile-last rule */
+
+@media (max-width: 480px){
+  nav.opl-bs4-nav-gadget .btn-group.flex-wrap .btn:not(:only-child) {
+    border-radius: 0;
+  }
+  /*
+  nav.opl-bs4-nav-gadget .but-group.flex-wrap .btn:first-child {
+    border-radius: 3px 3px 0 0;
+  }
+  nav.opl-bs4-nav-gadget .but-group.flex-wrap .btn:last-child {
+    border-radius: 0 0 3px 3px;
+  }
+  */
+}

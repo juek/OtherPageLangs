@@ -1,0 +1,77 @@
+/**
+ * 'Other Page Languages' plugin for Typesetter CMS
+ * Author: Jürgen Krausz
+ * License: GPL version 2
+ *
+ */
+
+.opl-default-gadget {
+  padding: 0.5em;
+  background: #fafafa;
+  border-radius: 0;
+  box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.05), 0 1px 8px rgba(0, 0, 0, 0.05);
+  font-size: 1em; /* adjust gadget base font size */
+  box-sizing: border-box;
+}
+
+.opl-default-gadget .opl-gadget-heading {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 0.3em 0.6em !important;
+}
+
+.opl-default-gadget .opl-gadget-switch-to {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0.3em 0.6em !important;
+}
+
+.opl-default-gadget .opl-gadget-switch-to > span {
+  display: inline-block;
+  margin: 0.72em 0.6em 0 0.6em !important;
+}
+
+#gpx_content .opl-default-gadget ul.opl-gadget-langlist,
+.opl-default-gadget ul.opl-gadget-langlist {
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  overflow: hidden; /* for border-radius */
+}
+
+.opl-default-gadget ul.opl-gadget-langlist li {
+  display: inline-block;
+  /* margin: -3px 0 0 -3px; /* negative border-width */
+}
+
+.opl-default-gadget a.opl-gadget-langlist-link,
+.opl-default-gadget a.opl-gadget-langlist-link:hover,
+.opl-default-gadget a.opl-gadget-langlist-link:focus,
+.opl-default-gadget a.opl-gadget-langlist-link:visited {
+  display: block;
+  text-align: center;
+  padding: 0.3em 0.6em;
+  background: #eee;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.opl-default-gadget a.opl-gadget-langlist-link span.opl-gadget-langlist-langcode {
+  font-size: 0.825em;
+  margin: 0 0.25em;
+  opacity: 0.75;
+}
+
+.opl-default-gadget a.opl-gadget-langlist-link.opl-gadget-langlist-accepted-lang {
+  background: rgb(127, 180, 8);
+  color: #fff;
+}
