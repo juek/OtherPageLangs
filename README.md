@@ -40,7 +40,7 @@ As long as no such page-associations are defined, the Gadget will not show up at
 In order to create page-language associations …
 * Log into your Typesetter site. OK, you guessed this one ;)
 * If you haven't already done so, create the pages (in different languages) you want to link to each other. You cannot associate pages that do not yet exist. However, they do not have to be in a menu.
-* Navigate to one of these pages, it doesn't matter wich one.
+* Navigate to one of these pages, it doesn't matter which one.
 * Once the plugin is installed, there is a new button in the Admin Top Bar. Click it.
 * A dialog box pops up which lists the currently associated pages. It initially only contains the current page.
 * Next to the current page entry there is the language dropdown. It will initially show Typesetter's user interface language. If you want to change it, do it right now. 
