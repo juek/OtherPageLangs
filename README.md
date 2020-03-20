@@ -12,10 +12,12 @@ Where Multi-Language Manager is intended to manage entire multilingual websites,
 
 See also [Typesetter Home](https://www.typesettercms.com), [Typesetter on GitHub](https://github.com/Typesetter/Typesetter)
 
+
 ## How To Use ###
-The plugin comes with ´OtherPageLangs´ Typesetter Gadgets to tell the visitor about other available languages. Currently (as of ver. 1.0), we have two of them:
-* ´OtherPageLangs´ is the name of the default Gadget. It will work in all themes.
-* ´OtherPageLangs_BS4´ is the gadget suited for Bootstrap 4-based themes.
+The plugin comes with `OtherPageLangs` Typesetter Gadgets to tell the visitor about other available languages. Currently (as of ver. 1.0), we have two of them:
+* `OtherPageLangs` is the name of the default Gadget. It will work in all themes.
+* `OtherPageLangs_BS4` is the gadget suited for Bootstrap 4-based themes.
+
 More may follow.
 
 ### Add the Gadget ###
@@ -48,12 +50,15 @@ In order to create page-language associations …
 * Once you added all pages, click the 'Save' button.
 * Now the Gadget should show up.
 
+
 ## Screenshots ##
 ![Screenshot-01-Config](/screenshot-01-config.jpg?raw=true)
-![Screenshot-02-Gadget](/screenshot-01-gadget.jpg?raw=true)
+![Screenshot-02-Gadget](/screenshot-02-gadget.jpg?raw=true)
+
 
 ## Current Version ##
 1.0
+
 
 ## TODOs ##
 * i18n of the admin UI
@@ -62,16 +67,20 @@ In order to create page-language associations …
 * add more gadgets
 * add more languages
 
+
 ## Change Log ##
 * 1.0 Intial version
 
+
 ## Requirements ##
 * Typesetter CMS 5.0+
+
 
 ## Manual Installation ##
 1. Download the [master ZIP archive](https://github.com/juek/OtherPageLangs/archive/master.zip)
 2. Upload the extracted folder 'OtherPageLangs-master' to your server into the /addons directory
 3. Install using Typesetter's Admin Toolbox &rarr; Plugins &rarr; Manage &rarr; Available &rarr; Other Page Languages
+
 
 ## License ##
 GPL version 2
