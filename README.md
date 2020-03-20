@@ -27,7 +27,7 @@ To add the Gadget to your website, choose one of the following methods:
 * The most flexible but potentially laborious way is to add the Gadgets to your pages' content by using 'File Inlude' sections. With this method, make sure to always add the Gadget to all associated pages.
 You can't see you Gadget? Everything is fine, read on!
 
-### Priciples ###
+### Principles ###
 To make the plugin do its job, it needs to know a few things. It needs to know which pages belong to each other in order to form what we call 'page-associations'. And it also needs to know what language each page is in.
 As long as no such page-associations are defined, the Gadget will not show up at all. That's intended - there is still nothing to tell. So you need to create such page-associations. Before you start, here is the logic:
 * You can associate as many pages as you want under the following conditions.
