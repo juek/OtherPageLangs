@@ -6,7 +6,7 @@ With 'Other Page Languages' you can manage pages in different languages on your 
 Where Multi-Language Manager is intended to manage entire multilingual websites, this plugin focuses on only offering individual pages in alternative languages. This can make sense, for example, if you offer certain products or services to certain target groups. The plugin was developed for an international franchise with a steadily growing number of local branches and languages. Of course, it can also serve well in other cases.
 
 * Informs a visitor that the current page is also available in other language(s).
-* Checks if the web browser's preferred language(s) are available and emphasizes them, or, if enabled, automatically redirects to the most suitable language. MLM will only do this on the homepage.
+* Checks if the web browser's preferred language(s) are available and emphasizes them, or, if enabled, automatically redirects to the most suitable language (Multi-Language Manager will only do this on the homepage).
 * Adds a 'Other Languages' icon to the Admin Top Bar which opens a dialog for editing the language assignments and page-associations.
 * Although (or rather because) the plugin works independently of Multi-Language Manager, I would advise against using both in parallel.
 
