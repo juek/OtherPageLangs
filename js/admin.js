@@ -5,14 +5,14 @@
  *
  */
 
-OtherPageLangs = {
+var OtherPageLangs = {
 
   init : function(){
     $('#opl-settings-form')
       .find('.opl-settings-page-title:not([readonly]), select')
         .on('input change paste', function(){
           var $tr = $(this).closest('tr');
-          OtherPageLangs.checkRow($tr)
+          OtherPageLangs.checkRow($tr);
         });
 
     $('.opl-settings-page-title:not([readonly])').each( function(){
