@@ -23,7 +23,7 @@ More may follow.
 ### Add the Gadget ###
 To add the Gadget to your website, choose one of the following methods:
 * If there is already a suitable 'area slot' in your theme's template, insert the gadget there via Layout Manager. Most themes do not have a suitable slot, which would rather be located somewhwere between main menu and content area (maybe add one if you know how)
-* Aternatively, if you have file access to template.php, you might want to call the Gadget directly at an appropriate code position by inserting ´&lt;?php gpOutput::GetGadget('OtherPageLangs'); ?&gt;´.
+* Aternatively, if you have file access to template.php, you might want to call the Gadget directly at an appropriate code position by inserting `<?php gpOutput::GetGadget('OtherPageLangs'); ?>`.
 * The most flexible but potentially laborious way is to add the Gadgets to your pages' content by using 'File Inlude' sections. With this method, make sure to always add the Gadget to all associated pages.
 
 You can't see your Gadget? Everything is fine, read on!
