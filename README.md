@@ -47,7 +47,7 @@ In order to create page-language associations …
 * To change a page's language you first need to unlock the dropdown via the gray lock icon next to it.
 * At the bottom of the list you see the 'New association' row with the 'Add' link. Click it to add another page to the list.
 * The new field on the left will show an 'autocomplete' list of all available pages. Select one. 
-* It the selected page already has a language assigned to it, it will show up in the (then locked) language dropdown. If not, select one.
+* It case the selected page already has a language assigned to it, it will show up in the (then locked) language dropdown. If not, select one.
 * Once you added all pages, click the 'Save' button.
 * Now the Gadget should show up.
 
