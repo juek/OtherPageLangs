@@ -113,6 +113,10 @@ class Output extends \Addon\OtherPageLangs\Common{
     }
 
     echo  '<div class="opl-gadget opl-default-gadget" lang="' . $gadget_content['lang'] . '" dir="' . $gadget_content['dir'] . '">';
+    echo    '<div class="opl-gadget-close" title="' . $gadget_content['close'] . '" aria-label="' . $gadget_content['close'] . '" ';
+    echo      'onClick="$(this).closest(\'.opl-gadget\').fadeOut()">';
+    echo      $gadget_content['close'];
+    echo    '</div>';
     echo    '<div class="opl-gadget-heading">' . $gadget_content['message'] . '</div>';
     echo    '<div class="opl-gadget-switch-to"><span>' . $gadget_content['switch_to'] . '</span>';
 
@@ -157,6 +161,11 @@ class Output extends \Addon\OtherPageLangs\Common{
     echo    'aria-label="Other page languages" ';
     echo    'lang="' . $gadget_content['lang'] . '" dir="' . $gadget_content['dir'] . '">';
 
+    echo    '<div class="opl-gadget-close" title="' . $gadget_content['close'] . '" aria-label="' . $gadget_content['close'] . '" ';
+    echo      'onClick="$(this).closest(\'.opl-gadget\').fadeOut()">';
+    echo      $gadget_content['close'];
+    echo    '</div>';
+
     // echo    '<div class="container">';
     echo    '<span class="navbar-text mx-2 py-2"><strong>' . $gadget_content['message'] . '</strong></span>';
     echo    '<span class="navbar-text mx-2 py-2">' . $gadget_content['switch_to'] . '</span>';
@@ -200,6 +209,7 @@ class Output extends \Addon\OtherPageLangs\Common{
 
      // fallback values
     $content['lang']        = $cms_lang;
+    $content['close']       = $this->i18n[$cms_lang]['close'];
     $content['message']     = $this->i18n[$cms_lang]['message'];
     $content['switch_to']   = $this->i18n[$cms_lang]['switch_to'];
     $content['dir']         = 'ltr';
@@ -219,6 +229,7 @@ class Output extends \Addon\OtherPageLangs\Common{
     if( !empty($this->i18n[$preferred_lang]) ){
       $content['lang']      = $preferred_lang;
       $content['dir']       = isset($this->i18n[$preferred_lang]['dir']) ? $this->i18n[$preferred_lang]['dir'] : 'ltr';
+      $content['close']     = $this->i18n[$preferred_lang]['close'];
       $content['message']   = $this->i18n[$preferred_lang]['message'];
       $content['switch_to'] = $this->i18n[$preferred_lang]['switch_to'];
     }

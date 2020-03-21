@@ -6,6 +6,7 @@
  */
 
 .opl-default-gadget {
+  position: relative;
   padding: 0.5em;
   background: #fafafa;
   border-radius: 0;
@@ -13,6 +14,44 @@
   font-size: 1em; /* adjust gadget base font size */
   box-sizing: border-box;
 }
+
+.opl-default-gadget .opl-gadget-close {
+  display: block;
+  position: absolute;
+  top: 0.75em;
+  right: 0.75em;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 2em;
+  cursor: pointer;
+}
+
+.opl-default-gadget .opl-gadget-close:before,
+.opl-default-gadget .opl-gadget-close:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 140%;
+  top: 50%;
+  left: 50%;
+  border-left: 2px solid rgba(127, 127, 127, 0.5);
+}
+
+.opl-default-gadget .opl-gadget-close:before {
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.opl-default-gadget .opl-gadget-close:after {
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  -ms-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
 
 .opl-default-gadget .opl-gadget-heading {
   display: inline-block;

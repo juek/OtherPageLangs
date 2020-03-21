@@ -5,6 +5,43 @@
  *
  */
 
+.opl-bs4-nav-gadget .opl-gadget-close {
+  display: block;
+  position: absolute;
+  top: 0.75em;
+  right: 0.75em;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: 2em;
+  cursor: pointer;
+}
+
+.opl-bs4-nav-gadget .opl-gadget-close:before,
+.opl-bs4-nav-gadget .opl-gadget-close:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 140%;
+  top: 50%;
+  left: 50%;
+  border-left: 2px solid rgba(127, 127, 127, 0.5);
+}
+
+.opl-bs4-nav-gadget .opl-gadget-close:before {
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.opl-bs4-nav-gadget .opl-gadget-close:after {
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+  -ms-transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
 
 /* I sincerely apologize for this abominable mobile-last rule */
 
