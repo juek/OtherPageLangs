@@ -51,6 +51,10 @@ In order to create page-language associations …
 * Once you added all pages, click the 'Save' button.
 * Now the Gadget should show up.
 
+### Automatic Redirection ###
+Automatic Redirection will not redirect logged-in users. If you want to check if it works, simply open your Typesetter website in a private window or different browser, or log-out.
+The fact that the button is located in the top right corner of the config dialog leads to the assumption that the setting would only apply to the current page-association, but that's not true. In fact, it switches a global setting. As soon as an Admin Page is implemented, this will most likely change.
+
 
 ## Screenshots ##
 ![Screenshot-01-Config](/screenshot-01-config.jpg?raw=true)
