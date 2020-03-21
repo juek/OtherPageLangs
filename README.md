@@ -61,6 +61,10 @@ The fact that the button is located in the top right corner of the config dialog
 ![Screenshot-02-Gadget](/screenshot-02-gadget.jpg?raw=true)
 
 
+## Supported Languages ##
+36, see [/i18n/i18n.php](https://github.com/juek/OtherPageLangs/blob/master/i18n/i18n.php)
+
+
 ## Current Version ##
 1.0
 
