@@ -136,3 +136,7 @@
   pointer-events: none;
   color: #555!important;
 }
+
+#gp_admin_box .ui-autocomplete {
+  max-height: 132px;
+}
